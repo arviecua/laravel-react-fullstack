@@ -1,6 +1,6 @@
 import { Link, Navigate, Outlet } from "react-router-dom";
 import { useStateContext } from "../contexts/ContextProvider";
-
+// GRADUATION DAY CHEAT DAY I NEED THIS RESTT :)))
 export default function DefaultLayout() {
     const { user, token } = useStateContext();
 
