@@ -1,3 +1,4 @@
+// useRef are needed for form data and useState to display errors
 import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useStateContext } from "../contexts/ContextProvider";
