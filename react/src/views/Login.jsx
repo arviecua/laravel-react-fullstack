@@ -46,6 +46,7 @@ export default function Login() {
             <div className="form">
                 <form onSubmit={onSubmit}>
                     <h1 className="title">Login into your account</h1>
+                    {/* if errors exist display error using map function */}
                     {errors && (
                         <div className="alert">
                             {Object.keys(errors).map((key) => (
