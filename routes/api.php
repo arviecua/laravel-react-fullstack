@@ -24,7 +24,8 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [AuthController::class,'logout']);
 
 });
-
+// route for controller signup method
 Route::post('/signup', [AuthController::class,'signup']);
+// route for controller login method
 Route::post('/login', [AuthController::class,'login']);
 
