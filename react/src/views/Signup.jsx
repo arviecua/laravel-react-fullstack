@@ -12,6 +12,7 @@ export default function Signup() {
     // state to store the errors
     const [errors, setErrors] = useState(null);
 
+    // using statecontext from contextProvider
     const { setUser, setToken } = useStateContext();
 
     const onSubmit = (ev) => {
