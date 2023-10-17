@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axiosClient from "../axios-client";
 
 export default function Users() {
@@ -21,5 +22,12 @@ export default function Users() {
                 setLoading(false);
             });
     };
-    return <div>Users</div>;
+    return (
+        <div>
+            <div>
+                <h1>Users</h1>
+                <Link to={}>Add new</Link>
+            </div>
+        </div>
+    );
 }
